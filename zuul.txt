@@ -2,3 +2,51 @@
 2. Jenkins installation 
 3. install gerrit
 Thu Sep 22 05:29:40 IST 2016
+
+gerrit
+
+https://review.openstack.org/Documentation/install-quick.html
+https://git.eclipse.org/r/Documentation/install-quick.html
+
+https://review.cyanogenmod.org/Documentation/install-quick.html
+
+
+http://blogs.fcoos.net/how-to-install-gerrit-on-an-ubuntu-14-04-server/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-gerrit-on-an-ubuntu-cloud-server
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-gerrit-on-an-ubuntu-cloud-server
+
+remote access ubuntu
+
+
+jenkins installaton
+
+https://vexxhost.com/resources/tutorials/how-to-install-configure-and-use-jenkins-on-ubuntu-14-04/
+
+jenkins job
+
+
+http://www.andyfrench.info/2015/03/automatically-triggering-jenkins-build.html
+
+
+install and run gearman server
+
+http://gearmanbundle.readthedocs.io/en/latest/installation.html
+
+
+-----------------------------------------
+http://docs.openstack.org/infra/zuul/launchers.html
+
+https://wiki.jenkins-ci.org/display/JENKINS/Gearman+Plugin
+
+http://docs.openstack.org/infra/zuul/zuul.html
+http://docs.openstack.org/infra/zuul/launchers.html#zuul-parameters
+http://gearman.org/
+https://review.cyanogenmod.org/Documentation/install-quick.html
+https://review.openstack.org/Documentation/install-quick.html
+http://abregman.com/2016/09/06/openstack-infra-understanding-zuul/
+http://ec2-54-66-129-240.ap-southeast-2.compute.amazonaws.com/httrack/docs/docs.openstack.org/infra/openstackci/third_party_ci.html
+https://www.youtube.com/watch?v=HlpJhqgGL34
