@@ -1,0 +1,53 @@
+git installation and git repository.
+
+Step 1 : Install git 
+
+sudo apt-get install git
+
+Step 2 : Initializing a Repository in an Existing Directory
+
+
+git init
+
+The git init command creates a new Git repository. 
+It can be used to convert an existing, unversioned project to a Git repository or initialize a new empty repository. 
+
+Executing git init creates a .git subdirectory in the project root, which contains all of the necessary metadata for the repo.
+
+
+
+Step 3 : Add newly added files to the git repository.
+
+git add. 
+
+Step 4 :
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+stack@ubuntu-ci:~/openstack_ci$ git config --global user.email "umbarkar_tushar@yahoo.com"
+stack@ubuntu-ci:~/openstack_ci$ git config --global user.name "tushar"
+
+
+
+Step 5 : 
+
+git commit -m "first commit"
+
+Step 6 : Create a new repository on GitHub
+
+Step 7 :  In Terminal, add the URL for the remote repository where your local repository will be pushed.
+
+git remote add origin remote repository URL
+stack@ubuntu-ci:~/openstack_ci$ git remote add origin https://github.com/tusharumbarkar/openstack_ci.git
+
+# Sets the new remote  (remote repository is the url from GITHUB for newly created repository.
+git remote -v
+# Verifies the new remote URL
+
+Step 8 : Push the changes in your local repository to GitHub.
+
+git push origin master
+
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
+

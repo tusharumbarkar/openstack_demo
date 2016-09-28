@@ -1,0 +1,37 @@
+Enable remote access on ubuntu system
+
+Step 1 – Install xRDP
+
+Open Terminal (Crtl+Alt+T) and execute following commands :
+
+sudo apt-get update
+sudo apt-get install xrdp
+------------------------------------------------------------------
+Step 2 – Install XFCE4
+ 
+sudo apt-get install xfce4 
+
+----------------------------------------------------------------------
+Step 3 – Configure xRDP
+echo xfce4-session >~/.xsession
+
+The second file we need to edit is the startup file for xRDP, so it will start xfce4.
+
+sudo nano /etc/xrdp/startwm.sh
+
+The content should look like this (pay attention to the last line and ignore . /etc/X11/Xsession):
+
+#!/bin/sh
+
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
+
+startxfce4
+---------------------------------------------------------------------------------------------
+Step 4 – Restart xRDP
+
+To make all these changes effective, restart xRDP as such:
+
+sudo service xrdp restart
